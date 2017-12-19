@@ -1,0 +1,305 @@
+.middle{
+  .display-col{
+    display: inline-block;
+  }
+  // SLIDERS bg //
+  .slider-bg-one , .slider-bg-two , .slider-bg-three{
+    background: url("../images/tmc-home-bg.jpg")no-repeat;
+    width: 100%;
+    height: 500px;
+    background-position: 0px -149px;
+    padding: 100px 0;
+    h1{
+      font-size: 60px;
+      color: #ffffff;
+      text-shadow: 1px 2px 9px #000;
+      margin-bottom: 26px;
+    }
+    span{
+      height: 47px;
+      vertical-align: middle;
+      display: table-cell;
+      font-size: 25px;
+      font-weight: 400;
+    }
+    .badge-color-one{
+      background: #f9bf00;
+    }
+    .badge-color-two{
+      background: #091a48;
+
+    }
+    .badge-color-three{
+      background: #282c62;
+
+    }
+  }
+  .tmc-putation-detail{
+    padding: 0 78px;
+    .tmc-putation{
+      display: inline-block;
+      background: #f9bf00;
+      overflow: hidden;
+      border-radius: 0 8px 8px;
+      .tmc-overwrite{
+        padding: 0 !important;
+      }
+      .tmc-box{
+        background: #091a48;
+        h6{
+          margin: 0;
+          padding: 10px 0 20px;
+          span{
+            font-size: 50px;
+            font-weight: 800;
+          }
+        }
+      }
+      .tmc-box-text{
+        background: #f9bf00;
+      }
+      p {
+        font-size: 13px;
+        display: inline-block;
+        margin: 20px 0 0;
+      }
+      button{
+        position: relative;
+        left: -26px;
+        top: 31px;
+      }
+    }
+  }
+  .tmc-boxes{
+    margin: 60px 0;
+    .home-box{
+      background: #f3f3f3;
+      padding-bottom: 30px;
+      border-radius: 4px;
+      margin-bottom: 18px;
+      width: 100%;
+      float: left;
+      border-bottom: 1px solid #cecece;
+      .donation-box{
+        width: 80px;
+        float: left;
+        .event-img{
+          //background: url(images/home-donation-box.png) no-repeat;
+          transition: 0.5s ease-in-out;
+          height: 63px;
+          background-position: 0 4px;
+          margin-left: 28px;
+          margin-top: 30px;
+        }
+      }
+      .content-area-one{
+        width: 75%;
+        float: left;
+        h3{
+          margin: 0 0 0 15px;
+          padding: 30px 0 15px 0;
+          color: #091a48;
+          font-weight: 600;
+          font-size: 25px;
+        }
+        p{
+          margin: 0 0 0 15px;
+          font-size: 14px !important;
+        }
+      }
+      .home-btn-box{
+
+      }
+    }
+  }
+
+
+
+
+  .slider-box {
+    background: #f3f3f3;
+    border-top: 1px solid #c4c4c4 !important;
+    padding-top: 58px;
+    padding-bottom: 85px;
+    h4 {
+      color: #091a48;
+      font-size: 35px;
+      font-weight: 800;
+      padding-bottom: 25px;
+    }
+    .margin-top-deside {
+      margin-top: 58px;
+      h4 {
+        margin: 0;
+        font-size: 35px;
+        font-weight: 900;
+        color: #091a48;
+        text-transform: uppercase;
+      }
+      .first-para{
+        font-size: 13px !important;
+        margin: 0 0 18px 0 !important;
+        padding: 0;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #333333;
+        margin: 0 0 20px 0;
+      }
+      .span-div {
+        width: 100%;
+        text-align: center;
+        .span-box {
+          width: 20%;
+          float: left;
+          border: 1px solid #ccc;
+          padding: 5px 0 5px 0;
+          color: #091a48;
+          .price {
+            font-size: 25px;
+            font-weight: 800;
+            float: left;
+            width: 100%;
+          }
+        }
+      }
+      .span-div-second {
+        width: 100%;
+        float: left;
+        border: 1px solid #ccc;
+        padding: 8px;
+        .plus-btn {
+          background: #091a48;
+          color: white;
+        }
+        .over-text {
+          font-size: 14px;
+          font-weight: 800;
+          color: #091a48;
+          width: 90%;
+          float: right;
+          padding: 0;
+          margin: -5px 0 0 0 !important;
+        }
+        .progress {
+          width: 90%;
+          float: right;
+          margin: -20px 0 0 0;
+          background: #dadada;
+          color: #091a48;
+          font-weight: 600;
+          padding: 0 10px 0 0;
+          .progress-site {
+            border-radius: 5px;
+            text-align: left;
+            padding-left: 5px;
+            background: #f9bf00;
+            color: #091a48;
+          }
+        }
+      }
+    }
+    .span-div-third {
+      width: 100%;
+      border: 1px solid #ccc;
+      float: left;
+      border-radius: 0 0 5px 5px;
+      .donate-button {
+        background: #091a48;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 12px;
+        line-height: 38px;
+        border-radius: 4px;
+        margin: 5px 0;
+        box-shadow: 0 0 #27496d;
+      }
+    }
+  }
+  .images-area{
+    background: url("../images/join-community-img.png")no-repeat fixed;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    h5{
+      font-size: 56px;
+      font-weight: 300;
+      color: #f9bf00;
+      margin: 230px 0 60px 0;
+    }
+    button{
+      width: 13%;
+      display: inline;
+      margin: 0;
+      background: #f9bf00;
+      font-size: 20px;
+      border: none;
+      padding: 15px 0 8px;
+    }
+  }
+
+
+
+  .mosk-area {
+    background: #f3f3f3;
+    border-bottom: 1px solid #cecece !important;
+    .image-text {
+      background: white;
+      width: 100%;
+      float: left;
+      img {
+        height: 150px;
+        width: 570px;
+      }
+      .width-46 {
+        width: 45%;
+        float: right;
+        h5 {
+          color: #091a48;
+          font-size: 20px;
+          font-weight: 600;
+          margin: 33px 0 11px 0;
+        }
+        span{
+
+          font-size: 13px;
+          padding: 0 0 0 0;
+          width: 100%;
+          float: left;
+          i {
+            color: #091a48;
+            font-size: 18px;
+          }
+
+        }
+        .image-site {
+          width: 50%;
+          float: right;
+          margin: 0 -1px 0 0;
+        }
+      }
+      .width-46-two {
+        width: 45%;
+        float: left;
+        padding: 37px 0 0;
+        text-align: right;
+        span{
+
+          font-size: 13px;
+          padding: 0 0 0 0;
+          width: 100%;
+          float: left;
+          i {
+            color: #091a48;
+            font-size: 18px;
+          }
+
+        }
+      }
+    }
+  }
+
+
+}
