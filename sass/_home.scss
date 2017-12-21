@@ -113,8 +113,6 @@
     }
   }
 
-
-
   .slider-box {
     background: #f3f3f3;
     border-top: 1px solid #c4c4c4 !important;
@@ -327,6 +325,75 @@
       font-size: 18px;
       text-transform: uppercase;
       font-weight: 600;
+    }
+  }
+  .tmc-details{
+    padding: 70px 0;
+    h2{
+      font-size: 20px;
+      color: #161944;
+      margin: 0;
+    }
+    .img-width{
+      width: 100%;
+      border-radius: 5px;
+    }
+    p{
+      font-size: 13px;
+      margin: 0 0 6px 0;
+    }
+    ul{
+      padding: 7px 8px;
+      background: #f3f3f3;
+      border-radius: 4px;
+      font-size: 14px;
+      li{
+        list-style: none;
+        display: inline-block;
+        padding: 0 2px;
+
+        a{
+          text-decoration: none;
+          color: #333333 !important;
+        }
+      }
+    }
+  }
+  h1{
+    margin: 0 0 25px;
+  }
+  .card{
+    a {
+      text-decoration: none;
+      .card-header{
+        font-size: 20px;
+        padding: 0 15px;
+        h5{
+          height: 37px;
+          display: table-cell;
+          vertical-align: middle;
+          text-transform: uppercase;
+          font-size: 18px;
+          color: #333333;
+          //span{
+          //  position: relative;
+          //  left: 83%;
+          //}
+        }
+      }
+      &:hover{
+        h5{
+          color: #ffffff !important;
+        }
+        .card-header{
+          background: #161944;
+        }
+
+      }
+    }
+    .card-block{
+      font-size: 13px;
+      padding: 9px 16px;
     }
   }
 
