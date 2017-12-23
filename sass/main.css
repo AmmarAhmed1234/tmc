@@ -325,6 +325,16 @@
     font-weight: 600; }
 .middle .tmc-details {
   padding: 70px 0; }
+  .middle .tmc-details .donating-pro-btn button {
+    background: #091a48;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 12px;
+    line-height: 38px;
+    border-radius: 4px;
+    margin: 5px 0;
+    box-shadow: 0 0 #27496d; }
   .middle .tmc-details h2 {
     font-size: 20px;
     color: #161944;
@@ -349,24 +359,154 @@
         color: #333333 !important; }
 .middle h1 {
   margin: 0 0 25px; }
-.middle .card a {
-  text-decoration: none; }
-  .middle .card a .card-header {
+.middle .card {
+  margin-bottom: 5px; }
+  .middle .card a {
+    text-decoration: none; }
+    .middle .card a .card-header {
+      font-size: 20px;
+      padding: 0 15px; }
+      .middle .card a .card-header h5 {
+        height: 37px;
+        display: table-cell;
+        vertical-align: middle;
+        text-transform: uppercase;
+        font-size: 18px;
+        color: #333333; }
+    .middle .card a:hover h5 {
+      color: #ffffff !important; }
+    .middle .card a:hover .card-header {
+      background: #161944; }
+  .middle .card .card-block {
+    font-size: 13px;
+    padding: 9px 16px; }
+.middle .our-partner .heading-partner {
+  margin: 0;
+  padding: 60px 0;
+  font-weight: 800; }
+.middle .our-partner h1 {
+  font-size: 35px;
+  font-weight: 800; }
+.middle .our-partner p {
+  font-size: 13px; }
+.middle .our-partner .slick-list {
+  z-index: 9999; }
+.middle .our-partner .slick-dots {
+  bottom: 0;
+  top: -3em; }
+  .middle .our-partner .slick-dots .slick-active button:before {
+    color: #f9bf00 !important; }
+  .middle .our-partner .slick-dots li button:before {
+    font-size: 13px !important; }
+.middle .hadith-bg {
+  background: url("../images/hadith-correct-img.jpg") no-repeat;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+  background-position: 30px 0; }
+  .middle .hadith-bg h1 {
+    margin: 60px 0 100px;
+    display: inline-block;
+    width: 100%; }
+  .middle .hadith-bg p {
+    font-size: 30px;
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 54px; }
+  .middle .hadith-bg .hadith-detail-slider .detail-img img {
+    margin: 40px 0 27px auto;
+    display: inline-block; }
+  .middle .hadith-bg .hadith-detail-slider .detail-img p {
+    font-size: 25px;
+    line-height: 19px; }
+    .middle .hadith-bg .hadith-detail-slider .detail-img p span {
+      font-size: 16px; }
+  .middle .hadith-bg .hadith-detail-slider .slick-next {
+    top: 23%; }
+    .middle .hadith-bg .hadith-detail-slider .slick-next:before {
+      content: "\f105";
+      font: normal normal normal 13px/1 FontAwesome;
+      color: #000000;
+      font-size: 110px; }
+  .middle .hadith-bg .hadith-detail-slider .slick-prev {
+    top: 23%; }
+    .middle .hadith-bg .hadith-detail-slider .slick-prev:before {
+      content: "\f104";
+      font: normal normal normal 13px/1 FontAwesome;
+      color: #000000;
+      font-size: 110px; }
+  .middle .hadith-bg .hadith-detail-slider .slick-list {
+    z-index: 9999; }
+  .middle .hadith-bg .hadith-detail-slider .slick-dots {
+    bottom: 0;
+    top: -3em; }
+    .middle .hadith-bg .hadith-detail-slider .slick-dots .slick-active button:before {
+      color: #f9bf00 !important; }
+    .middle .hadith-bg .hadith-detail-slider .slick-dots li button:before {
+      font-size: 13px !important; }
+
+.footer .footer-area {
+  background: #161944;
+  width: 100%;
+  float: left; }
+  .footer .footer-area .margin-bottom-58 {
+    margin-bottom: 58px; }
+    .footer .footer-area .margin-bottom-58 .margin-top-60 {
+      margin-top: 54px; }
+  .footer .footer-area .payment {
+    color: white;
     font-size: 20px;
-    padding: 0 15px; }
-    .middle .card a .card-header h5 {
-      height: 37px;
-      display: table-cell;
-      vertical-align: middle;
-      text-transform: uppercase;
-      font-size: 18px;
-      color: #333333; }
-  .middle .card a:hover h5 {
-    color: #ffffff !important; }
-  .middle .card a:hover .card-header {
-    background: #161944; }
-.middle .card .card-block {
-  font-size: 13px;
-  padding: 9px 16px; }
+    line-height: 0; }
+    .footer .footer-area .payment .Methonds {
+      color: #f9bf00; }
+  .footer .footer-area .show-small-hide .input-site-area {
+    width: 29%;
+    float: right;
+    background: #f9bf00;
+    margin-top: -43px;
+    border-radius: 0 5px 5px 0; }
+    .footer .footer-area .show-small-hide .input-site-area p {
+      font-size: 14px;
+      font-weight: 600;
+      float: left;
+      margin: 15px 0 0 5px;
+      letter-spacing: -1px; }
+    .footer .footer-area .show-small-hide .input-site-area input {
+      float: right;
+      margin: 7px 5px 6px 0;
+      padding: 0 30px 0 6px;
+      line-height: 32px;
+      width: 60%; }
+    .footer .footer-area .show-small-hide .input-site-area i {
+      position: absolute;
+      right: 30px;
+      top: 22px; }
+  .footer .footer-area .show-small-hide .images-links {
+    background: #282c62;
+    width: 61%;
+    float: right;
+    border-radius: 5px 0 0 5px;
+    margin-top: -43px; }
+    .footer .footer-area .show-small-hide .images-links img {
+      margin: 10px 0 10px 6px; }
+  .footer .footer-area .show-small-hide .hide-small-show {
+    display: none;
+    width: 100%; }
+  .footer .footer-area .images-links {
+    background: #282c62;
+    width: 61%;
+    float: right;
+    border-radius: 5px 0 0 5px;
+    margin-top: -43px; }
+    .footer .footer-area .images-links img {
+      margin: 10px 0 10px 10px; }
+  .footer .footer-area .Quick-Links {
+    font-size: 25px;
+    font-weight: 300;
+    color: #f9bf00;
+    letter-spacing: -1px;
+    margin: 0 0 15px 0;
+    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
