@@ -1,0 +1,100 @@
+.middle{
+  .about-first-bg{
+    background: url("../images/about-page-bg-img.jpg")no-repeat;
+    width: 100%;
+    float: left;
+    height: 400px;
+    h1 {
+      margin: 175px 0 20px 0;
+      color: white;
+      font-size: 60px;
+      text-shadow: 0 -1px 7px #000;
+      width: 100%;
+      letter-spacing: -4.4px;
+      font-weight: 800;
+      text-align: center;
+    }
+  }
+  .community-heading {
+    margin: 58px 0 70px 0;
+    display: inline-block;
+    h4 {
+      color: #091a48;
+      font-size: 35px;
+      font-weight: 800;
+      text-align: center;
+      margin: 0 0 37px;
+    }
+  }
+  .community-heading-detail {
+    margin: 0 0 70px 0;
+    display: inline-block;
+    h4 {
+      color: #091a48;
+      font-size: 35px;
+      font-weight: 800;
+      text-align: center;
+      margin: 0 0 37px;
+    }
+  }
+  .our-gallery{
+    background: #f9bf00;
+    padding: 0 0 50px;
+    display: inline-block;
+    width: 100%;
+    .members-heading {
+      margin: 55px 0 73px 0;
+      img {
+        margin: -6px 0 0 0;
+      }
+    }
+    .div-slider {
+      border-radius: 8px;
+      width: 100%;
+      float: left;
+      background: white;
+      overflow: hidden;
+      h5 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #161944;
+        margin: 38px 0 10px 0;
+      }
+      p{
+        font-size: 14px;
+        font-weight: 600;
+        color: #333333;
+        margin: 0 0 35px 0;
+      }
+      .fb-icon-box {
+        background: #ececec;
+        padding: 0 2px 0 13px;
+        border-radius: 0 0 4px 4px;
+        .images-hover-show {
+          padding: 6px 0 6px 0;
+          .anchor-images{
+            a{
+              width: 29px;
+              height: 29px;
+              background: #999999;
+              vertical-align: middle;
+              display: table-cell;
+              border-radius: 50%;
+              i{
+                color: #ececec;
+              }
+              &:hover{
+                color: #fff;
+                background: #161944;
+              }
+              &:focus{
+                color: #fff;
+                background: #161944;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

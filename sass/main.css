@@ -44,6 +44,9 @@
       .tmc-header-logo .like-link li:hover {
         background: #f9bf00; }
 
+.nav-link {
+  padding: 0.4em 1em; }
+
 .navbar-inverse {
   background: #f9bf00 !important; }
   .navbar-inverse ul {
@@ -246,7 +249,7 @@
     font-size: 56px;
     font-weight: 300;
     color: #f9bf00;
-    margin: 230px 0 60px 0; }
+    margin: 230px 0 50px 0; }
   .middle .images-area button {
     width: 13%;
     display: inline;
@@ -316,7 +319,6 @@
     color: #7579b5;
     margin-right: 20px; }
   .middle .form-area button {
-    width: 130px;
     height: 48px;
     background: #f9bf00;
     color: #fff;
@@ -508,5 +510,418 @@
     letter-spacing: -1px;
     margin: 0 0 15px 0;
     cursor: pointer; }
+.footer .anchor-hide ul li a, .footer .footer-toggle ul li a {
+  color: #ffffff; }
+
+.middle .about-first-bg {
+  background: url("../images/about-page-bg-img.jpg") no-repeat;
+  width: 100%;
+  float: left;
+  height: 400px; }
+  .middle .about-first-bg h1 {
+    margin: 175px 0 20px 0;
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 -1px 7px #000;
+    width: 100%;
+    letter-spacing: -4.4px;
+    font-weight: 800;
+    text-align: center; }
+.middle .community-heading {
+  margin: 58px 0 70px 0;
+  display: inline-block; }
+  .middle .community-heading h4 {
+    color: #091a48;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 37px; }
+.middle .community-heading-detail {
+  margin: 0 0 70px 0;
+  display: inline-block; }
+  .middle .community-heading-detail h4 {
+    color: #091a48;
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 37px; }
+.middle .our-gallery {
+  background: #f9bf00;
+  padding: 0 0 50px;
+  display: inline-block;
+  width: 100%; }
+  .middle .our-gallery .members-heading {
+    margin: 55px 0 73px 0; }
+    .middle .our-gallery .members-heading img {
+      margin: -6px 0 0 0; }
+  .middle .our-gallery .div-slider {
+    border-radius: 8px;
+    width: 100%;
+    float: left;
+    background: white;
+    overflow: hidden; }
+    .middle .our-gallery .div-slider h5 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #161944;
+      margin: 38px 0 10px 0; }
+    .middle .our-gallery .div-slider p {
+      font-size: 14px;
+      font-weight: 600;
+      color: #333333;
+      margin: 0 0 35px 0; }
+    .middle .our-gallery .div-slider .fb-icon-box {
+      background: #ececec;
+      padding: 0 2px 0 13px;
+      border-radius: 0 0 4px 4px; }
+      .middle .our-gallery .div-slider .fb-icon-box .images-hover-show {
+        padding: 6px 0 6px 0; }
+        .middle .our-gallery .div-slider .fb-icon-box .images-hover-show .anchor-images a {
+          width: 29px;
+          height: 29px;
+          background: #999999;
+          vertical-align: middle;
+          display: table-cell;
+          border-radius: 50%; }
+          .middle .our-gallery .div-slider .fb-icon-box .images-hover-show .anchor-images a i {
+            color: #ececec; }
+          .middle .our-gallery .div-slider .fb-icon-box .images-hover-show .anchor-images a:hover {
+            color: #fff;
+            background: #161944; }
+          .middle .our-gallery .div-slider .fb-icon-box .images-hover-show .anchor-images a:focus {
+            color: #fff;
+            background: #161944; }
+
+.middle .middle-first-bg {
+  background: url("../images/donation-first-bg.jpg") no-repeat;
+  width: 100%;
+  height: 100%; }
+  .middle .middle-first-bg h1 {
+    margin: 0;
+    padding: 133px 0;
+    font-size: 60px;
+    display: inline-block; }
+.middle .donation-detail h4 {
+  margin: 55px 0 28px 0;
+  font-size: 35px;
+  font-weight: 900;
+  color: #091a48;
+  text-transform: uppercase; }
+.middle .donation-detail h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #091a48;
+  margin: 0;
+  text-transform: uppercase; }
+.middle .donation-detail p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+  margin: 0 0 20px 0; }
+.middle .donation-submit-btn {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background: #091a48;
+  padding: 0 17px 0 17px;
+  line-height: 36px;
+  margin-bottom: 60px; }
+.middle .donation-payment-site {
+  width: 100%;
+  float: left;
+  margin: 0 0 28px 0; }
+  .middle .donation-payment-site .payment-area {
+    width: 8%;
+    float: left;
+    text-align: center; }
+    .middle .donation-payment-site .payment-area .payment-area input {
+      width: 20px;
+      height: 20px; }
+      .middle .donation-payment-site .payment-area .payment-area input label {
+        margin: 5px 0 0 0; }
+        .middle .donation-payment-site .payment-area .payment-area input label img {
+          cursor: pointer; }
+.middle .contact-person-area {
+  width: 100%;
+  float: left;
+  background: #f3f3f3;
+  margin: 58px 0 0 0;
+  padding: 0 0 42px 20px;
+  border-bottom: 1px solid #cccccc; }
+  .middle .contact-person-area .contact-heading {
+    font-weight: 900;
+    font-size: 35px;
+    margin: 58px 0 28px 0;
+    color: #091a48; }
+  .middle .contact-person-area .contact-images {
+    width: 29%;
+    float: left; }
+    .middle .contact-person-area .contact-images img {
+      border-radius: 4px; }
+  .middle .contact-person-area .contact-text {
+    width: 65%;
+    float: left; }
+    .middle .contact-person-area .contact-text h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #091a48;
+      margin: -5px 0 5px 0;
+      text-transform: uppercase; }
+    .middle .contact-person-area .contact-text p {
+      margin: 0 0 25px 0;
+      font-size: 13px;
+      font-weight: 400;
+      color: #333333; }
+    .middle .contact-person-area .contact-text h4 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 16px;
+      color: #091a48;
+      margin: 0; }
+
+.ask-imam-bg {
+  background: url("../images/ask-imam-first-bg.jpg") no-repeat;
+  width: 100%;
+  height: 400px; }
+  .ask-imam-bg h1 {
+    margin: 185px 0 20px 0;
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 -1px 7px #000;
+    width: 100%;
+    letter-spacing: -4.4px;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block; }
+
+.ask-imam-about-imam h4 {
+  color: #091a48;
+  font-size: 35px;
+  font-weight: 800;
+  margin: 58px 0 48px 0; }
+.ask-imam-about-imam .margin-bottom-38-pixels {
+  margin-bottom: 38px; }
+  .ask-imam-about-imam .margin-bottom-38-pixels .questions {
+    font-size: 25px;
+    font-weight: 600;
+    color: #999999;
+    width: 11%;
+    float: left;
+    height: 83%; }
+  .ask-imam-about-imam .margin-bottom-38-pixels .muslim-heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #091a48;
+    width: 85%;
+    float: left;
+    margin: 5px 0 10px 0; }
+  .ask-imam-about-imam .margin-bottom-38-pixels .abid-kashmiri {
+    color: #091a48;
+    font-size: 13px;
+    font-weight: bold;
+    width: 26%;
+    float: left;
+    margin: -4px 0 0; }
+  .ask-imam-about-imam .margin-bottom-38-pixels .date-year-p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #999999;
+    width: 30%;
+    float: left;
+    margin: -4px 0 0 0; }
+
+.form h4 {
+  color: #091a48;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: left;
+  margin: 58px 0 48px -13px; }
+.form .form-group {
+  margin: 0 0 30px 0; }
+  .form .form-group input {
+    width: 100%;
+    padding: 0 0 0 17px;
+    line-height: 48px;
+    border: 1px solid #cccccc;
+    border-radius: 6px; }
+.form .message-area {
+  width: 100%;
+  resize: none;
+  border-radius: 6px;
+  padding: 20px 0 0 17px;
+  height: 278px;
+  border: 1px solid #cccccc;
+  margin-bottom: 28px; }
+.form .ask-imam-btn {
+  font-size: 20px;
+  font-weight: 600;
+  background: #091a48;
+  color: white;
+  padding: 0 16px 0 16px;
+  line-height: 36px;
+  margin-bottom: 40px;
+  border: 1px solid transparent; }
+
+.about-islam-area {
+  width: 100%;
+  float: left;
+  background: #f3f3f3;
+  margin: 60px 0 0 0;
+  padding: 0 85px 80px 20px; }
+  .about-islam-area .faq-islam {
+    color: #091a48;
+    font-size: 34px;
+    font-weight: 800;
+    margin: 60px 0 36px 0; }
+  .about-islam-area .para-questions-answer {
+    font-size: 16px;
+    color: #091a48;
+    margin: 0 0 48px 0;
+    width: 95%;
+    float: left;
+    text-transform: uppercase; }
+
+.contact-us-first-bg {
+  background: url("../images/map-img.jpg") no-repeat;
+  width: 100%;
+  height: 400px; }
+
+.questions-heading {
+  color: #091a48;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: left;
+  margin: 42px 0 26px; }
+
+div.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0; }
+div.wpcf7 .form-group {
+  margin: 0 0 30px 0; }
+div.wpcf7 .wpcf7-form-control-wrap {
+  position: relative; }
+  div.wpcf7 .wpcf7-form-control-wrap input {
+    width: 100%;
+    padding: 0 0 0 17px;
+    line-height: 48px;
+    border: 1px solid #cccccc;
+    border-radius: 6px; }
+div.wpcf7 .ask-imam-btn {
+  font-size: 20px;
+  font-weight: 600;
+  background: #091a48;
+  color: white;
+  padding: 0 16px 0 16px;
+  line-height: 36px;
+  margin-bottom: 40px;
+  border: 1px solid transparent; }
+
+.message-area {
+  width: 100%;
+  resize: none;
+  border-radius: 6px;
+  padding: 20px 0 0 17px;
+  height: 278px;
+  border: 1px solid #cccccc;
+  margin-bottom: 28px; }
+
+.contact-person-area {
+  width: 100%;
+  float: left;
+  background: #f3f3f3;
+  margin: 105px 0 0 0 !important;
+  padding: 10px 0 48px 20px !important;
+  border-bottom: 1px solid #cccccc; }
+  .contact-person-area .contact-heading {
+    font-weight: 900;
+    font-size: 35px;
+    margin: 58px 0 28px 0;
+    color: #091a48; }
+  .contact-person-area .contact-images {
+    width: 29%;
+    float: left; }
+  .contact-person-area .contact-text {
+    width: 65%;
+    float: left; }
+    .contact-person-area .contact-text h4 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 16px;
+      color: #091a48;
+      margin: 0 0 0 0; }
+    .contact-person-area .contact-text h5 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #091a48;
+      margin: -5px 0 5px 0;
+      text-transform: uppercase; }
+    .contact-person-area .contact-text p {
+      margin: 0 0 25px 0;
+      font-size: 13px;
+      font-weight: 400;
+      color: #333333; }
+
+#ajaxLoad {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -16px 0 0 -16px; }
+
+svg {
+  position: relative;
+  z-index: 10;
+  height: 40px;
+  -webkit-animation: bounce 0.5s cubic-bezier(0.51, 0.23, 0.02, 0.96) infinite;
+  animation: bounce 0.5s cubic-bezier(0.51, 0.23, 0.02, 0.96) infinite; }
+
+#ajaxLoad:after {
+  position: absolute;
+  bottom: 2px;
+  left: 20px;
+  display: block;
+  width: 22px;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+  content: '';
+  -webkit-animation: shadow .5s infinite;
+  animation: shadow .5s infinite; }
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(0.95, 1.1) translateY(-8px);
+    transform: scale(0.95, 1.1) translateY(-8px); } }
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(0.95, 1.1) translateY(-8px);
+    transform: scale(0.95, 1.1) translateY(-8px); } }
+@keyframes shadow {
+  0% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(0.7, 1);
+    transform: scale(0.7, 1);
+    background: rgba(0, 0, 0, 0.05); } }
+@-webkit-keyframes shadow {
+  0% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1); }
+  50% {
+    -webkit-transform: scale(0.7, 1);
+    transform: scale(0.7, 1);
+    background: rgba(0, 0, 0, 0.05); } }
 
 /*# sourceMappingURL=main.css.map */
